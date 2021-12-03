@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\PERSONAL\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Ruby30\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw32\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\xampp\php;C:\composer;C:\Users\PERSONAL\AppData\Local\Programs\Python\Python39-32\Scripts\;C:\Users\PERSONAL\AppData\Local\Programs\Python\Python39-32\;C:\Users\PERSONAL\AppData\Local\Microsoft\WindowsApps;C:\Users\PERSONAL\AppData\Roaming\npm;C:\Users\PERSONAL\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:182:17)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~43.0.2",
+      "expo-status-bar": "~1.1.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-web": "0.17.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
